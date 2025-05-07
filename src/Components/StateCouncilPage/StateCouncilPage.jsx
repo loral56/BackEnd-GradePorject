@@ -8,7 +8,7 @@ const StateCouncilPage = () => {
 
       <button
         className="login-button"
-        onClick={() => (window.location.href = "/login")}
+        onClick={() => (window.location.href = "/Login")}
       >
         تسجيل الدخول
       </button>
