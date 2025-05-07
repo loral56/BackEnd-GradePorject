@@ -19,7 +19,7 @@ import NewCaseForm from "./Components/NewCaseForm/NewCaseForm";
 
 function App() {
   return (
-    <Router>
+    <Router basename="BackEnd-GradePorject">
       <Routes>
         <Route path="/Login" element={<Login />} />
         <Route path="/Signup" element={<Signup />} />
