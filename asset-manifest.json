@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/BackEnd-GradePorject/static/css/main.0b9025af.css",
+    "main.css": "/BackEnd-GradePorject/static/css/main.8fc09fe0.css",
     "main.js": "/BackEnd-GradePorject/static/js/main.45157bae.js",
     "static/js/453.614df20c.chunk.js": "/BackEnd-GradePorject/static/js/453.614df20c.chunk.js",
+    "static/media/download.png": "/BackEnd-GradePorject/static/media/download.2b23025b61bce77c6699.png",
+    "static/media/background.jpg": "/BackEnd-GradePorject/static/media/background.04323f23121b329091db.jpg",
+    "static/media/mainpagebackground.jpeg": "/BackEnd-GradePorject/static/media/mainpagebackground.20311d5a3ab7573b22cb.jpeg",
     "index.html": "/BackEnd-GradePorject/index.html",
-    "main.0b9025af.css.map": "/BackEnd-GradePorject/static/css/main.0b9025af.css.map",
+    "main.8fc09fe0.css.map": "/BackEnd-GradePorject/static/css/main.8fc09fe0.css.map",
     "main.45157bae.js.map": "/BackEnd-GradePorject/static/js/main.45157bae.js.map",
     "453.614df20c.chunk.js.map": "/BackEnd-GradePorject/static/js/453.614df20c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b9025af.css",
+    "static/css/main.8fc09fe0.css",
     "static/js/main.45157bae.js"
   ]
 }
