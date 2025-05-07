@@ -1,15 +1,3 @@
-/*import './App.css';
-
-
-function App() {
-  return (
-    <div >
-      <Login />
-    </div>
-  );
-}
-
-export default App;*/
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./Components/Login/Login";
