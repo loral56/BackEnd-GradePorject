@@ -11,10 +11,13 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3001/Login", {
-        email,
-        password,
-      });
+      const res = await axios.post(
+        "https://statecouncil-back-end-production.up.railway.app/Login",
+        {
+          email,
+          password,
+        }
+      );
 
       if (res.data.success) {
         alert("Login successful!");

@@ -34,7 +34,7 @@ const Signup = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:3001/Signup",
+        "https://statecouncil-back-end-production.up.railway.app/Signup",
         formPayload,
         {
           headers: {
