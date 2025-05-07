@@ -11,7 +11,7 @@ function App() {
 
 export default App;*/
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./Components/Login/Login";
 import Signup from "./Components/Signup/Signup";
 import StateCouncilPage from "./Components/StateCouncilPage/StateCouncilPage";
