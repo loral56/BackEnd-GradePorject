@@ -6,7 +6,7 @@ import axios from "axios";
 const NewCaseForm = () => {
   const [formData, setFormData] = useState({
     court_name: "",
-    plantiffname: "",
+    plaintiff_Name: "",
     national_ID: "",
     concerned_Authority: "",
     Email: "",
@@ -49,7 +49,8 @@ const NewCaseForm = () => {
       console.log("Case Form Response:", res.data);
 
       if (res.status === 200) {
-        window.location.href = "/";
+        
+        // window.location.href = "/";
       } else {
         alert("Failed to submit case.");
       }
@@ -80,7 +81,7 @@ const NewCaseForm = () => {
               type="text"
               placeholder="اسم المدعي"
               className="form-input"
-              name="plantiffname"
+              name="plaintiff_Name"
               onChange={handleChange}
             />
             <input

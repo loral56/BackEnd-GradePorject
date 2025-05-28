@@ -12,6 +12,12 @@ const StateCouncilPage = () => {
       >
         تسجيل الدخول
       </button>
+      <button
+        className="case-button"
+        onClick={() => (window.location.href = "/NewCaseForm")}
+      >
+        تسجيل قضية جديدة
+      </button>
 
       <header className="header">
         <nav className="nav">
