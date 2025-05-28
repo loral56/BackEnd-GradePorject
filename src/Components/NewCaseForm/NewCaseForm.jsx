@@ -37,7 +37,7 @@ const NewCaseForm = () => {
     });
     try {
       const res = await axios.post(
-        "http://localhost:3001/NewCaseForm",
+        "https://statecouncil-back-end-production.up.railway.app/NewCaseForm",
         formPayload,
         {
           headers: {
