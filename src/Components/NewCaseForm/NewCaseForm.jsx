@@ -37,7 +37,7 @@ const NewCaseForm = () => {
     });
     try {
       const res = await axios.post(
-        "https://statecouncil-back-end-production.up.railway.app/NewCaseForm",
+        "http://localhost:3001/NewCaseForm",
         formPayload,
         {
           headers: {
@@ -49,8 +49,9 @@ const NewCaseForm = () => {
       console.log("Case Form Response:", res.data);
 
       if (res.status === 200) {
-        
-        // window.location.href = "/";
+        alert("Case submitted successfully!");
+
+        window.location.href = "/";
       } else {
         alert("Failed to submit case.");
       }
